@@ -269,7 +269,6 @@ Mecanismos adicionais de descoberta (opcionais):
 
 O frontmatter YAML é validável contra o schema publicado em:
 
-- https://lgpd.md/schema.json
 - https://github.com/lgpd-app/lgpd-md/blob/main/schema.json
 
 ### Níveis de Validação
@@ -281,21 +280,6 @@ O frontmatter YAML é validável contra o schema publicado em:
 | **Consistência** | Valores coerentes | `expira` no passado, URL inacessível |
 | **Conformidade** | Campos condicionais | `cookies` ausente mas site usa GA4 |
 
-### Ferramenta de Validação
-
-```bash
-npx lgpd-md validate ./lgpd.md
-```
-
-Saída esperada:
-```
-✅ Sintaxe: YAML válido
-✅ Completude: todos os campos obrigatórios presentes
-⚠️ Consistência: arquivo expira em 30 dias
-❌ Conformidade: cookies.opt_in_previo é false (não conforme com Art. 8, §4º)
-
-Score: 85/100 — Status declarado: conforme → Sugestão: alterar para "parcial"
-```
 
 ---
 
@@ -551,7 +535,7 @@ scripts_terceiros:
 
 1. Crie um arquivo `lgpd.md` na raiz pública do seu site
 2. Preencha o frontmatter YAML com os dados do seu projeto
-3. Valide com `npx lgpd-md validate ./lgpd.md`
+3. Valide comparando com schema.json
 4. Faça deploy junto com o site
 5. Adicione `<link rel="lgpd" href="/lgpd.md">` no `<head>`
 
@@ -573,7 +557,7 @@ O arquivo oferece uma visão rápida e padronizada do estado de conformidade de 
 
 Esta especificação é mantida como projeto open source em:
 
-- **Spec**: https://github.com/lgpd-app/lgpd-md
+- **Spec**: https://github.com/lgpd-app/lgpd-md e https://lgpd.md 
 - **Schema**: https://lgpd.md/schema.json
 - **Discussões**: GitHub Issues e Discussions
 
@@ -600,3 +584,7 @@ Contribuições são bem-vindas via Pull Request. Mudanças na spec seguem versi
 | DESIGN.md (Google) | Dados estruturados + contexto qualitativo no mesmo arquivo |
 | auth.md (WorkOS) | Spec voltada para agentes de IA parsearem |
 | privacy.txt (IETF draft) | Conceito de privacidade machine-readable (expandido e localizado) |
+
+## Disclaimer
+
+Esta proposta de padrão e suas ferramentas propostas não substituem a assessoria de um advogado especialista. É um mecanismo para facilitar a descoberta de informações de privacidade em sites brasileiros. O usuário é o único responsável pelas informações fornecidas por ele mesmo em seu site na web.

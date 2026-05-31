@@ -161,3 +161,7 @@ Contribuições são bem-vindas. Veja [CONTRIBUTING.md](./CONTRIBUTING.md) para 
 ## Licença
 
 [Apache 2.0](./LICENSE)
+
+## Disclaimer
+
+Esta proposta de padrão e suas ferramentas propostas não substituem a assessoria de um advogado especialista. É um mecanismo para facilitar a descoberta de informações de privacidade em sites brasileiros. O usuário é o único responsável pelas informações fornecidas por ele mesmo em seu site na web.
