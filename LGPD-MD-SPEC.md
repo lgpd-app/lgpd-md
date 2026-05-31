@@ -6,7 +6,7 @@ Autor: Fabricio Telles
 Publicado: 31 de maio de 2026  
 Versão: 1.0  
 Licença: Apache 2.0  
-Repositório: https://github.com/lgpd-app/lgpd.md
+Repositório: https://github.com/lgpd-app/lgpd-md
 
 ---
 
@@ -270,7 +270,7 @@ Mecanismos adicionais de descoberta (opcionais):
 O frontmatter YAML é validável contra o schema publicado em:
 
 - https://lgpd.md/schema.json
-- https://github.com/lgpd-app/lgpd.md/blob/main/schema.json
+- https://github.com/lgpd-app/lgpd-md/blob/main/schema.json
 
 ### Níveis de Validação
 
@@ -573,7 +573,7 @@ O arquivo oferece uma visão rápida e padronizada do estado de conformidade de 
 
 Esta especificação é mantida como projeto open source em:
 
-- **Spec**: https://github.com/lgpd-app/lgpd.md
+- **Spec**: https://github.com/lgpd-app/lgpd-md
 - **Schema**: https://lgpd.md/schema.json
 - **Discussões**: GitHub Issues e Discussions
 
