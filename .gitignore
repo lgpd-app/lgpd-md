@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Build output
+dist/
+
+# Ambiente
+.env
+.env.local
+.env.production
+
+# Astro
+.astro/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+*.db
+data/
+
+# Logs
+*.log
