@@ -127,6 +127,22 @@ O frontmatter YAML é validável contra o [JSON Schema](./schema.json) publicado
 | `llms.txt` | Complementar — LLMs podem referenciar lgpd.md para entender práticas de dados |
 | Política de privacidade | lgpd.md complementa com dados estruturados; a política é o documento legal completo |
 
+## Skills para Agentes de IA
+
+O ecossistema lgpd.md inclui [skills](https://github.com/lgpd-app/skills) que permitem a agentes de IA trabalhar com conformidade LGPD:
+
+| Skill | Descrição |
+|-------|-----------|
+| [`lgpd-check`](https://github.com/lgpd-app/skills/tree/main/skills/lgpd-check) | Audita websites para conformidade LGPD — verifica política de privacidade, cookies, minimização de dados, transferência internacional, direitos do titular e scripts de terceiros |
+| [`lgpd-md`](https://github.com/lgpd-app/skills/tree/main/skills/lgpd-md) | Gera e valida arquivos lgpd.md a partir da política de privacidade e documentos existentes do site |
+
+Instale com:
+
+```bash
+npx skills add lgpd-app/lgpd-check
+npx skills add lgpd-app/lgpd-md
+```
+
 ## Links
 
 - **Site**: [lgpd.md](https://lgpd.md)
