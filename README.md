@@ -154,6 +154,10 @@ npx skills add lgpd-app/lgpd-md
 - **Spec formal**: [LGPD-MD-SPEC.md](./LGPD-MD-SPEC.md)
 - **JSON Schema**: [schema.json](./schema.json)
 
+## Autor
+
+**Fabricio Telles** — Gerente de Tecnologia — [ft.ia.br](https://ft.ia.br/)
+
 ## Contribuindo
 
 Contribuições são bem-vindas. Veja [CONTRIBUTING.md](./CONTRIBUTING.md) para detalhes.
