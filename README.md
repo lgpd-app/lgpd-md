@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./lgpd-md.svg" alt="lgpd.md" width="200">
+</p>
+
 # lgpd.md
 
 Um padrão aberto para declarar conformidade LGPD em websites.
