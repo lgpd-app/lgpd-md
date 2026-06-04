@@ -143,8 +143,8 @@ O ecossistema lgpd.md inclui [skills](https://github.com/lgpd-app/skills) que pe
 Instale com:
 
 ```bash
-npx skills add lgpd-app/lgpd-check
-npx skills add lgpd-app/lgpd-md
+npx skills add lgpd-app/skills --skill "LGPD Check"
+npx skills add lgpd-app/skills --skill lgpd-md
 ```
 
 ## Links
