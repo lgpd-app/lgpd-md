@@ -4,6 +4,8 @@
 
 # lgpd.md
 
+[![skills.sh](https://skills.sh/b/lgpd-app/skills)](https://skills.sh/lgpd-app/skills)
+
 Um padrão aberto para declarar conformidade LGPD em websites.
 
 Um arquivo YAML na raiz do site — legível por humanos, crawlers e ferramentas de auditoria. Sem dependências, sem vendor lock-in.
